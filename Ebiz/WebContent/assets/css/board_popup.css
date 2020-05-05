@@ -1,0 +1,28 @@
+/*분류, 작성일, 조회수*/
+.firstLine{
+	font-size:20px;
+}
+/*제목*/
+.secondLine{
+	font-size:25px;
+}
+
+/*내용*/
+.thirdLine{
+	font-size:20px;
+}
+
+tr > td.category{
+	width:30%;
+}
+tr > td.write_date{
+	width:40%;
+}
+
+tr > td.read_cnt{
+	width:30%;
+}
+
+tr> td.subject{
+	width:100%;
+}

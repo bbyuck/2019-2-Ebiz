@@ -1,0 +1,80 @@
+tr.col{
+	font-size:20px;
+}
+
+tr.bar{
+	font-size:25px;
+}
+
+tr > .num{
+	width:8%;
+	text-align:center;
+}
+
+tr > .writer{
+	width:10%;
+	text-align:center;
+}
+
+tr > .subject{
+	width:55%;
+	text-align:center;
+}
+
+tr> .write_date{
+	width:16%;
+	text-align:center;
+}
+
+tr> .read_cnt{
+	width:11%;
+	text-align:center;
+}
+
+div.board-bottom{
+	margin-bottom:70px;
+	display:initial;
+}
+
+.search-group{
+	width:10%;
+	display:initial;
+}
+
+input[type="text"]{
+	width:30%; 
+	display:initial;
+}
+
+input[type="submit"]{
+	width:10%;
+	display:initial;
+}
+
+input[type="checkbox"]{
+  width:1px; 
+  height:1px; 
+  padding:0; 
+  border:0 none; 
+  margin:0; 
+  position:absolute; 
+  left:0; 
+  top:0; 
+  overflow:hidden;
+  clip:rect(0 0 0 0);
+}
+
+label{
+  height:15px; 
+  line-height:15px; 
+  padding-left:20px; 
+  display:inline-block; 
+  background:url(http://hcs1105.com/wp/wp-content/themes/hcs1105/images/checkbox1.png) no-repeat 0 0; 
+  font-size:15px; 
+  vertical-align:middle; 
+  cursor:pointer;
+}
+
+input[type="checkbox"]:checked + label{
+  background-position: 0 -15px;
+}
